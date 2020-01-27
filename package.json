@@ -14,7 +14,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,6 +34,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "http://radness.github.io/redux-example",
   "devDependencies": {
     "react-dev-utils": "^10.0.0"
   }
