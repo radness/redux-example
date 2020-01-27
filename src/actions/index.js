@@ -13,11 +13,9 @@ export function decrement() {
     };
 }
 
-export function setBGColor(color) {
+export function setColor(color) {
     return {
-        type: types.SET_BG_COLOR,
-        // color: color = color 와 동일한 의미
+        type: types.SET_COLOR,
         color
     };
 }
-

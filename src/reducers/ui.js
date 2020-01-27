@@ -5,11 +5,11 @@ const initialState = {
 };
 
 export default function ui(state = initialState, action) {
-    if(action.type === types.SET_BG_COLOR) {
+    if(action.type === types.SET_COLOR) {
         return {
             color: action.color
         };
     } else {
-
+        return state;
     }
 }

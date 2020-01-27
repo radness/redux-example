@@ -8,7 +8,7 @@ const propTypes = {
 };
 
 function createWarning(funcName) {
-    return () => console.warn(funcName + ' is not defined.');
+    return () => console.warn(funcName + ' is not defined');
 }
 const defaultProps = {
     onPlus: createWarning('onPlus'),

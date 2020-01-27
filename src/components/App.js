@@ -7,7 +7,7 @@ class App extends Component {
       <div>
         <Counter />
       </div>
-    )
+    );
   }
 }
 
