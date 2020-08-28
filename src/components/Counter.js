@@ -10,17 +10,19 @@ class Counter extends Component {
 
     constructor(props) {
         super(props);
+
         this.setRandomColor = this.setRandomColor.bind(this);
     }
 
     setRandomColor() {
+        const { store } = this.props;
         const color = [
-            Math.floor((Math.floor()*55) + 200),
-            Math.floor((Math.floor()*55) + 200),
-            Math.floor((Math.floor()*55) + 200)
+          Math.floor((Math.random() * 55) + 200),
+          Math.floor((Math.random() * 55) + 200),
+          Math.floor((Math.random() * 55) + 200)
         ];
-        
-        this.props.handleSetColor(color);
+    
+        store.setColor(color);
     }
 
     render() {
