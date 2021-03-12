@@ -40,6 +40,6 @@
   },
   "homepage": "http://radness.github.io/redux-example",
   "devDependencies": {
-    "react-dev-utils": "^10.0.0"
+    "react-dev-utils": "^11.0.4"
   }
 }
